@@ -1,0 +1,140 @@
+body{
+    background: fixed url(simplon\ document\ css.png) no-repeat center;
+    }
+
+.titre{
+    text-align: center;
+    color: white;
+}
+
+#italique{
+    text-align: center;
+    color: white;
+}
+
+/*menu*/
+
+main{
+background-color: #303056;
+margin-left: 400px;
+margin-right: 400px;
+}
+
+/*Nom Mail Age*/
+
+#Nom{
+    color: white;
+    padding: 30px;
+}
+
+#name{
+    border-radius: 5px;
+    color: white;
+    width: 500px;
+    padding: 5px;
+    margin-left: 30px;
+}
+
+#mail{
+color: white;
+padding: 5px;
+width: 500px;
+border-radius: 5px;
+margin-left: 30px;
+}
+
+#email{
+color: white;
+padding: 5px;
+width: 500px;
+border-radius: 5px;
+margin-left: 30px;
+}
+
+#nombre{
+    color: white;
+    padding: 5px;
+    width: 500px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+#age{
+    color: white;
+    padding: 5px;
+    width: 500px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+/*menu déroulant*/
+
+#Role{
+    color: white;
+    padding: 5px;
+    width: 500px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+#option{
+    padding: 5px;
+    width: 500px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+#question{
+    color: white;
+    padding: 5px;
+    width: 500px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+/*input de type radio*/
+
+#favori{
+    margin-left: 40px;
+}
+
+#Definitely{
+    color: white;
+    width: 500px;
+    border-radius: 5px;
+    }
+   
+    #maybe{
+        margin-left: 40px;
+    }
+
+#Maybe{
+    color: white;
+    width: 500px;
+    border-radius: 5px;
+}
+
+#sure{
+margin-left: 40px;
+
+}
+#Sure{
+    color: white;
+    width: 500px;
+    border-radius: 5px;
+}
+
+#text{
+    color: white;
+    padding: 5px;
+    width: 500px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+#check{
+    padding: 5px;
+    width: 500px;
+    border-radius: 5px;
+    margin-left: 30px;s
+}

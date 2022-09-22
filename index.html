@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="titre">
+    <h1>freeCodeCamp Survey Form</h1>
+</div>
+    <p id="italique">Thank you for taking the time to help us improve the platform</p>
+        <main>
+            <br>
+
+            <!--Nom Mail Age-->
+
+            <label id="Nom" for="name">Name</label>
+            <br>
+          <input type="text" id="name" name="Nom" placeholder="Enter your name" required>
+          <br>
+          <br>
+          <label id="mail" for="email">Email</label>
+          <br>
+          <input type="mail" id="email" name="mail" placeholder="Enter your Email" required>
+          <br>
+          <br>
+          <label id="nombre" for="age">Age</label>
+          <br>
+          <input type="number" id="age" name="Age" placeholder="Age" min="0" max="100">
+          <br>
+          <br>
+
+          <!--menu déroulant-->
+
+          <label id="Role" for="option">Which option best describes your current role?</label>
+          <br>
+          <select name="role" id="option">
+          <option selected value=>Select current role</option>
+          <option value="assistant">Assistant</option>
+          <option value="plongeur">Plongeur</option>
+          <option value="Serveur">Serveur</option>
+          <option value="Caissier">Caissier</option>
+        </select>
+        <br>
+        <br>
+
+        <!--input de type radio-->
+
+        <legend id="question">Would you recommend freeCodeCamp to a friend?</legend>
+        <input type="radio" id="favori" name="option">
+        <label id="Definitely" for="favori">Definitely</label>
+        <br>
+        <input type="radio" id="maybe" name="option">
+        <label id="Maybe" for="maybe">Maybe</label>
+        <br>
+        <input type="radio" id="sure" name="option">
+        <label id="Sure" for="sure">Not sure</label>
+        <br>
+        <br>
+
+            <!--menu déroulant-->
+
+            <label id="text" for="check">What is your favorite feature of freeCodeCamp?</label>
+            <br>
+            <br>
+            <select name="checks" id="check">
+            <option selected value=>Select an option</option>
+            <option value="paysage">celle avec le paysage</option>
+            <option value="montagne">Celle avec la montagne</option>
+            <option value="cheval">Celle avec le cheval</option>
+            <option value="mer">Celle avec la mer</option>
+          </select>
+        </main>
+</body>
+</html>
