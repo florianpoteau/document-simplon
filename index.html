@@ -16,20 +16,20 @@
             <br>
 
             <!--Nom Mail Age-->
-
+        <form method="post">
             <label id="Nom" for="name">Name</label>
             <br>
           <input type="text" id="name" name="Nom" placeholder="Enter your name" required>
           <br>
           <br>
-          <label id="mail" for="email">Email</label>
+          <label id="Mail" for="mail">Email</label>
           <br>
-          <input type="mail" id="email" name="mail" placeholder="Enter your Email" required>
+          <input type="email" id="mail" name="Mail" placeholder="Enter your Email" required>
           <br>
           <br>
           <label id="nombre" for="age">Age</label>
           <br>
-          <input type="number" id="age" name="Age" placeholder="Age" min="0" max="100">
+          <input type="number" id="age" name="Age" placeholder="Age" min="0" max="100" required>
           <br>
           <br>
 
@@ -37,8 +37,8 @@
 
           <label id="Role" for="option">Which option best describes your current role?</label>
           <br>
-          <select name="role" id="option">
-          <option selected value=>Select current role</option>
+          <select name="role" id="option" required>
+            <option value="">Select your current role</option>
           <option value="assistant">Assistant</option>
           <option value="plongeur">Plongeur</option>
           <option value="Serveur">Serveur</option>
@@ -49,7 +49,7 @@
 
         <!--input de type radio-->
 
-        <legend id="question">Would you recommend freeCodeCamp to a friend?</legend>
+        <p id="question">Would you recommend freeCodeCamp to a friend?</p>
         <input type="radio" id="favori" name="option">
         <label id="Definitely" for="favori">Definitely</label>
         <br>
@@ -66,13 +66,64 @@
             <label id="text" for="check">What is your favorite feature of freeCodeCamp?</label>
             <br>
             <br>
-            <select name="checks" id="check">
-            <option selected value=>Select an option</option>
-            <option value="paysage">celle avec le paysage</option>
+            <select name="checks" id="check" required>
+            <option selected value="">Select an option</option>
+            <option value="paysage">Celle avec le paysage</option>
             <option value="montagne">Celle avec la montagne</option>
             <option value="cheval">Celle avec le cheval</option>
             <option value="mer">Celle avec la mer</option>
           </select>
+        <br>
+          <!--Checkbox-->
+
+        <p id="Blanc">What would you like to see improved?<span id="phrase">(Check all that apply)</span></p> 
+        
+          <input type="checkbox" id="Front-end">
+          <label for="Front-end" id="Projects">Front-end Projects</label>
+        <br>
+          <input type="checkbox" id="Back-end">
+          <label for="Back-end" id="Back">Back-end Projects</label>
+          <br>
+          <input type="checkbox" id="Data">
+          <label for="Data" id="Visualization">Data Visualization</label>
+          <br>
+          <input type="checkbox" id="Challenges">
+          <label for="Challenges" id="challenges">Challenges</label>
+          <br>
+          <input type="checkbox" id="Open">
+          <label for="Open" id="Source">Open Source Community</label>
+          <br>
+          <input type="checkbox" id="Gitter">
+          <label for="Gitter" id="Help">Gitter help rooms</label>
+          <br>
+          <input type="checkbox" id="Videos">
+          <label for="Videos" id="videos">Videos</label>
+          <br>
+          <input type="checkbox" id="City">
+          <label for="City" id="Meetups">City Meetups</label>
+          <br>
+          <input type="checkbox" id="Wiki">
+          <label for="Wiki" id="wiki">Wiki</label>
+          <br>
+          <input type="checkbox" id="Forum">
+          <label for="Forum" id="forum">Forum</label>
+          <br>
+          <input type="checkbox" id="Additional">
+          <label for="Additional" id="Courses">Additional Courses</label>
+          <br>
+          <br>
+
+          <!--Text-area-->
+
+          <p id="Comments">Any comments or suggestions?</p>
+          <textarea name="textarea" id="textarea" cols="63" rows="5" placeholder="Enter your comment here..."></textarea>
+          <br>
+          <br>
+
+          <!--Submit-->
+
+          <input type="submit" id="Submit" value="Submit">
+        </form>
         </main>
 </body>
 </html>

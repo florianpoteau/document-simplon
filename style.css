@@ -1,5 +1,7 @@
 body{
-    background: fixed url(simplon\ document\ css.png) no-repeat center;
+    background: rgb(89 99 237 / 43%)url(simplon\ document\ css.png);
+    background-size: cover;
+    background-blend-mode: lighten
     }
 
 .titre{
@@ -16,125 +18,84 @@ body{
 
 main{
 background-color: #303056;
-margin-left: 400px;
-margin-right: 400px;
+margin-left: 650px;
+margin-right: 650px;
 }
 
 /*Nom Mail Age*/
 
 #Nom{
-    color: white;
     padding: 30px;
+    color: white;
 }
 
-#name{
+#name, #option, #mail, #age{
     border-radius: 5px;
-    color: white;
-    width: 500px;
+    width: 85%;
     padding: 5px;
     margin-left: 30px;
 }
 
-#mail{
+#Mail, #nombre, #Role, #question{
 color: white;
 padding: 5px;
-width: 500px;
-border-radius: 5px;
 margin-left: 30px;
-}
-
-#email{
-color: white;
-padding: 5px;
-width: 500px;
-border-radius: 5px;
-margin-left: 30px;
-}
-
-#nombre{
-    color: white;
-    padding: 5px;
-    width: 500px;
-    border-radius: 5px;
-    margin-left: 30px;
-}
-
-#age{
-    color: white;
-    padding: 5px;
-    width: 500px;
-    border-radius: 5px;
-    margin-left: 30px;
-}
-
-/*menu déroulant*/
-
-#Role{
-    color: white;
-    padding: 5px;
-    width: 500px;
-    border-radius: 5px;
-    margin-left: 30px;
-}
-
-#option{
-    padding: 5px;
-    width: 500px;
-    border-radius: 5px;
-    margin-left: 30px;
-}
-
-#question{
-    color: white;
-    padding: 5px;
-    width: 500px;
-    border-radius: 5px;
-    margin-left: 30px;
 }
 
 /*input de type radio*/
 
-#favori{
+#favori, #maybe,#sure{
     margin-left: 40px;
 }
 
-#Definitely{
+#Definitely, #Maybe, #Sure{
     color: white;
-    width: 500px;
-    border-radius: 5px;
-    }
-   
-    #maybe{
-        margin-left: 40px;
     }
 
-#Maybe{
-    color: white;
-    width: 500px;
-    border-radius: 5px;
-}
+/*Menu déroulant*/
 
-#sure{
-margin-left: 40px;
-
-}
-#Sure{
-    color: white;
-    width: 500px;
-    border-radius: 5px;
-}
-
-#text{
+#text, #Blanc{
     color: white;
     padding: 5px;
-    width: 500px;
-    border-radius: 5px;
+    width: 85%;
     margin-left: 30px;
+}
+
+#phrase{
+    padding: 5px;
+    width: 500px;
 }
 
 #check{
     padding: 5px;
     width: 500px;
-    border-radius: 5px;
-    margin-left: 30px;s
+    margin-left: 30px;
 }
+
+/*Checkbox*/
+
+#Front-end, #Back-end, #Data, #Challenges, #Open, #Gitter, #Videos, #City, #Wiki, #Forum, #Additional, #textarea{
+    margin-left: 40px ;
+}
+
+#Projects, #Back, #Visualization, #challenges, #Source, #Help, #videos, #Meetups, #wiki, #forum, #Courses{
+    color: white;
+}
+
+/*Textarea*/
+
+#Comments{
+    margin-left: 40px;
+    color: white;
+}
+
+/*Submit*/
+
+#Submit{
+    margin-left: 40px;
+    width: 500px;
+    height: 40px;
+    background-color: #59b559;
+}
+
+
